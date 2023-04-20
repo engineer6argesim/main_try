@@ -1,7 +1,7 @@
 '''
 Created on 25 Dec 2021
 
-@author: sy 
+@author: sy a
 '''
 from automatic_soiling_gui import Ui_MainWindow_ss
 #from gui.automatic_soiling_gui import Ui_MainWindow_ss
