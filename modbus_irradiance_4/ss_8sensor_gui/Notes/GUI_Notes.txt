@@ -1,0 +1,27 @@
+------------------------------------------------------------------------------------------
+
+Use this code to convert .ui to .py via powershell.
+
+Only .py file;
+pyuic5 -o .\Designer_ui_code.py .\Designer_ui_code.ui
+
+Executable and .py file;
+pyuic5 -x -o .\Designer_ui_code.py .\Designer_ui_code.ui
+
+------------------------------------------------------------------------------------------
+
+One of the following two commands can be used to convert software (.exe) to application.
+
+Without icon;
+pyinstaller.exe --onefile .\main.py
+
+With icon;
+pyinstaller.exe --onefile --windowed --icon=icon.png .\main.py
+
+------------------------------------------------------------------------------------------
+
+Use this code for background source file (.qrc) to .py
+
+pyrcc5 -o icon_rc.py icon.qrc
+
+------------------------------------------------------------------------------------------
